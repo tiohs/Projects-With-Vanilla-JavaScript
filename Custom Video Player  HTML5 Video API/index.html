@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Custom Video Player</h1>
+    <video controls src="videos/02.mp4" id="video" class="screen" poster="img/poster.png"></video>
+    <div class="controls">
+        <button class="btn" id="play">
+            <i class="fa fa-play fa-2x"></i>
+        </button>
+        <button class="btn" id="play">
+            <i class="fa fa-stop fa-2x"></i>
+        </button>
+        <input type="range" name="progress" id="progress" min="0" max="100" step="0.1" value="0">
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
