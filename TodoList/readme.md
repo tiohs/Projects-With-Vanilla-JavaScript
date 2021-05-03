@@ -1,10 +1,10 @@
 ## TodoList 
 
 
-[] Listar as tarefas 
+[x] Listar as tarefas 
 [] Editar 
-[] Apagar 
+[x] Apagar 
 [] Mover as tarefas 
-[] Criar cards 
+[x] Criar cards 
 [] Editar cards 
 
