@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo List</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body class="light">
-  <section class="header">
-    
-  </section>
-  <div class="container">
-
-  <div class="title-theme">
-    <h1>Todo</h1>
-    <input type="checkbox" id="switch-l" class="themeSwitch">
-    <label for="switch-l" id="switch" class="themeSwitch-label"></label>
-  </div>
-  <div class="todosInput">
-    <div id="mark"></div>
-    <form class="form" action="" data-new-todo-form>
-      <input id="todos" data-new-todo-input type="text" placeholder="Create a new todo..." >
-    </form>
-  </div>
-    <div class="myTodos">
-      <ul id="todo-list">
-    <!--     <li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light">
+    <section class="header"></section>
+    <div class="container">
+      <div class="title-theme">
+        <h1>Todo</h1>
+        <input type="checkbox" id="switch-l" class="themeSwitch" />
+        <label for="switch-l" id="switch" class="themeSwitch-label"></label>
+      </div>
+      <div class="todosInput">
+        <div id="mark"></div>
+        <form class="form" action="" data-new-todo-form>
+          <input
+            id="todos"
+            data-new-todo-input
+            type="text"
+            placeholder="Create a new todo..."
+          />
+        </form>
+      </div>
+      <div class="myTodos">
+        <ul id="todo-list">
+          <!--     <li>
           <input id="todo-check"type="checkbox" class="to-check">
           <label for="todo-check" id="todo-check-label" class="to-check-label"></label>
           <img src="/images/icon-check.svg" alt="sdfg">
         </li> -->
-      </ul>
-    </div>
- <div class="controls">
-    <p id="todosLeft">items left</p><!-- Add dynamic number --> 
-    <div class="controls-list-div">
-      <ul class="controls-list" data-lists>
-        <li id="All">All</li> 
-        <li id="Active">Active</li> 
-        <li id="Completed">Completed</li> 
         </ul>
+      </div>
+      <div class="controls">
+        <p id="todosLeft">items left</p>
+        <!-- Add dynamic number -->
+        <div class="controls-list-div">
+          <ul class="controls-list" data-lists>
+            <li id="All">All</li>
+            <li id="Active">Active</li>
+            <li id="Completed">Completed</li>
+          </ul>
+        </div>
+        Clear Completed
+      </div>
     </div>
-   Clear Completed
-   
-  </div> 
-</div>
-  <div class="instruc">
-    <p>Drag and drop to reorder list</p>
-  </div>
-</body>
+    <div class="instruc">
+      <p>Drag and drop to reorder list</p>
+    </div>
+  </body>
 </html>
