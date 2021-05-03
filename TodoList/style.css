@@ -1,0 +1,363 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+:root {
+  
+    /* Light theme */
+    --bright-blue:#000220;
+    --check-gradieant: linear-gradient(#57DDFF, #C058F3);
+    --very-light-grey: #FAFAFA;
+    --Very-Light-Grayish-Blue: #FFFFFF;
+    --ight-grayish-blue: #D2D3DB;
+    --dark-grayish-blue: #9394A5;
+    --very-dark-grayish-blue: #484B6A;
+    --heading: #ffffff;
+    --border-color: #F5F5F8;
+
+    --Very-Dark-Blue: #181824;
+    --Very-Dark-Desaturated-Blue: #24273C;
+    --Light-Grayish-Blue: #CACDE8;
+    --Light-Grayish-Blue : #E4E5F1;
+    --Dark-Grayish-Blue: #777A92;
+    --Very-Dark-Grayish-Blue: #4D5066;
+    --Very-Dark-Grayish-Blue: #393A4C;
+
+    --blue-text: #1D86D5;
+    --bg-mobile-light: url("images/bg-mobile-light.jpg");
+    --bg-desktop-light: url("images/thsNp.jpg");
+    --theme-icon-light: url("images/icon-moon.svg");
+    --check-icon: url("images/icon-check.svg");
+    --bg-mobile-dark: url("images/bg-mobile-dark.jpg");
+    --bg-desktop-dark: url("images/bg-desktop-dark.jpg");
+    --theme-icon-dark: url("images/icon-sun.svg");
+
+    /*--list-bg-color: hsl(0, 0%, 98%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --bg-color: hsl(236, 33%, 92%);
+    --light-grayish-blue: hsl(233, 11%, 84%);
+    --border-color: hsl(233, 11%, 84%);
+    --text-completed: hsl(236, 9%, 61%);
+    --list-text: hsl(235, 19%, 35%);
+    
+    
+    --text-completed: hsl(234, 11%, 52%);*/
+  }
+
+  .dark {
+    --bright-blue:#000220;
+    --check-gradieant: linear-gradient(#57DDFF, #C058F3);
+    --background:var(--Very-Dark-Blue);
+    --list-background: var(--Very-Dark-Desaturated-Blue);
+    --header-img:var(--bg-desktop-dark);
+    --theme-icon:var(--theme-icon-dark);
+    --header-img-mobile:var(--bg-mobile-dark);
+    --text:var(--dark-grayish-blue);
+    --text-completed:var(--very-dark-grayish-blue);
+    --text-hover:var(--Light-Grayish-Blue);
+
+
+    /*--list-bg-color:  hsl(235, 24%, 19%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --bg-color: hsl(235, 21%, 11%);
+    --light-grayish-blue: hsl(234, 39%, 85%);
+    --border-color: hsl(234, 11%, 52%);
+    --text-completed: hsl(234, 39%, 85%);
+    --list-text: hsl(234, 39%, 85%);
+    
+    --check-icon: url("images/icon-check.svg");
+    --blue-text: rgb(92, 134, 213);
+    --text-completed: hsl(234, 11%, 52%);*/
+  }
+  
+  .light {
+    --bright-blue:#000220;
+    --check-gradieant: linear-gradient(#57DDFF, #C058F3);
+    --background: var(--very-light-grey);
+    --list-background: var(--Very-Light-Grayish-Blue);
+    --header-img:var(--bg-desktop-light);
+    --theme-icon:var(--theme-icon-light);
+    --header-img-mobile:var(--bg-mobile-light);
+    --text:var(--very-dark-grayish-blue);
+    --text-completed: var(--dark-grayish-blue);
+    --text-hover: var(--very-dark-grayish-blue);
+
+  }
+
+body {
+    min-height: 100%;
+    min-width: 100%; 
+    background-color: var(--background);
+    transition: background 2s;
+}
+
+.header {
+    content: "";
+    background-image: var(--header-img);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    transition: background 2s;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    top: -11rem;
+    max-width: 700px;
+    width: 90%;
+    transition: background 2s;
+}
+
+
+.title-theme {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: background 2s;
+}
+
+.themeSwitch {
+    display: none;
+}
+
+.themeSwitch-label {
+    cursor: pointer;
+    background-image: var(--theme-icon);
+    height: 26px;
+    width: 26px;
+    transition: background 2s;
+}
+
+.container h1 {
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: var(--heading);
+    margin-bottom: 2rem;
+    
+}
+
+.todosInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--list-background);
+    border-radius: 0.3rem;
+    border: transparent;
+    transition: background 2s;
+    margin-bottom: 20px;
+    
+}
+
+.form {
+    width: 100%;
+}
+#todos {
+   width: 100%;
+   height: 3rem;
+   border: none;
+   color: var(--text);
+   background-color: var(--list-background);
+   outline: none;
+   transition: background 2s;
+
+}
+
+#mark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    background-color: var(--list-background);
+    background-image: var(--check-icon);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    transition: background 2s;
+    
+
+}
+#mark:hover {
+    background-color:  var(--check-gradieant);
+
+}
+
+.todo-item span {
+    width: 100%;
+}
+
+ .todo-item input {
+    all: unset;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    width: 24px;
+    margin: 0.5rem;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9394a5;
+} 
+input[type=checkbox]::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--list-background); 
+    transition: all .4s 
+}
+input[type=checkbox]:after {
+    content: url(/images/icon-check.svg);
+    font-size: 1rem;
+    color: var(--list-background);
+    display: none;
+}
+input[type=checkbox]:checked:after {
+    display: block;
+}
+input[type=checkbox]:checked::before {
+    display: none;
+}
+
+
+input[type=checkbox]:checked, input[type=checkbox]:hover {
+    background: linear-gradient(270deg,#57ddff,#c058f3);
+}
+
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+    color: var(--text-completed);
+}
+ 
+img {
+    width: 15px;
+    height: 15px;
+    margin: 1rem;
+    display: none;
+}
+.todo-item:hover img {
+    display: inline-block;
+}
+
+
+.myTodos {
+    background-color: var(--list-background);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    border-radius: 0.3rem;
+    transition: background 2s;
+
+}
+.myTodos li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--text);
+    height: 3rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.controls {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-completed);
+    font-weight: bold;
+    background-color: var(--list-background);
+    height: 3rem;
+    transition: background 2s;
+
+}
+.controls p {
+    font-size: 13px;
+}
+.controls-list {
+    display: flex;
+    list-style: none;
+
+}
+
+.active-list {
+    color: blue;
+}
+
+@media screen and (max-width:600px) {
+    .controls-list-div {
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0.3rem;
+        height: 3rem;
+        background-color: var(--list-bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s all ease-in;
+        overflow: hidden;
+    }
+    .controls {
+        padding: 0.5rem;
+        justify-content: space-between;
+    }
+    .header {
+        background-image: var(--header-img-mobile);
+    }
+}
+.controls-list li {
+    font-size: 13px;
+    padding: 0.5rem;
+    
+}
+
+.controls-list button {
+    font-size: 13px;
+    font-weight: inherit;
+    font-family: inherit;
+    padding: 0;
+    outline: none;
+    color: var(--text-completed);
+    background-color: var(--list-background);
+    border: none;
+        transition: background 2s;
+
+
+}
+
+.controls li:hover {
+    color: var(--text-hover);
+    cursor:default;
+}
+
+.instruc  {
+    margin-bottom: rem;
+    text-align: center;
+    color: var(--text-completed);
+}
+
+.to-check {
+    display: none;
+}
+
+.to-check-label {
+    cursor: pointer;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
