@@ -33,10 +33,10 @@
     --bg-mobile-light: url("images/bg-mobile-light.jpg");
     --bg-desktop-light: url("images/thsNp.jpg");
     --theme-icon-light: url("images/icon-moon.svg");
-    --check-icon: url("images/icon-check.svg");
-    --bg-mobile-dark: url("images/bg-mobile-dark.jpg");
+    --check-icon: url("images/check.svg");
+    --bg-mobile-dark: url("images/mobile.svg");
     --bg-desktop-dark: url("images/bg-desktop-dark.jpg");
-    --theme-icon-dark: url("images/icon-sun.svg");
+    --theme-icon-dark: url("images/sun.svg");
 
     /*--list-bg-color: hsl(0, 0%, 98%);
     --very-light-gray: hsl(0, 0%, 98%);
