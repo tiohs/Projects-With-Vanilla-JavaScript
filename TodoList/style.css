@@ -30,24 +30,13 @@
     --Very-Dark-Grayish-Blue: #393A4C;
 
     --blue-text: #1D86D5;
-    --bg-mobile-light: url("images/bg-mobile-light.jpg");
-    --bg-desktop-light: url("images/thsNp.jpg");
-    --theme-icon-light: url("images/icon-moon.svg");
-    --check-icon: url("images/check.svg");
-    --bg-mobile-dark: url("images/mobile.svg");
-    --bg-desktop-dark: url("images/bg-desktop-dark.jpg");
-    --theme-icon-dark: url("images/sun.svg");
-
-    /*--list-bg-color: hsl(0, 0%, 98%);
-    --very-light-gray: hsl(0, 0%, 98%);
-    --bg-color: hsl(236, 33%, 92%);
-    --light-grayish-blue: hsl(233, 11%, 84%);
-    --border-color: hsl(233, 11%, 84%);
-    --text-completed: hsl(236, 9%, 61%);
-    --list-text: hsl(235, 19%, 35%);
-    
-    
-    --text-completed: hsl(234, 11%, 52%);*/
+    --bg-mobile-light: url("./images/bg-mobile-light.jpg");
+    --bg-desktop-light: url("./images/thsNp.jpg");
+    --theme-icon-light: url("./images/icon-moon.svg");
+    --check-icon: url("./images/check.svg");
+    --bg-mobile-dark: url("./images/mobile.svg");
+    --bg-desktop-dark: url("./images/bg-desktop-dark.jpg");
+    --theme-icon-dark: url("./images/sun.svg");
   }
 
   .dark {
@@ -220,7 +209,7 @@ input[type=checkbox]::before {
     transition: all .4s 
 }
 input[type=checkbox]:after {
-    content: url(/images/icon-check.svg);
+    content: url(/images/check.svg);
     font-size: 1rem;
     color: var(--list-background);
     display: none;

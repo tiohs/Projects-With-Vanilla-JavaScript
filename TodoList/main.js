@@ -140,7 +140,7 @@ const renderTodo = (todoTask, preventMutableStorage)=> {
     
     <input class="js-tick" id="${todoTask.id}" type="checkbox" ${isChecked ? "checked" : ""}/>
     <span>${todoTask.text}</span>
-    <img class="delete" width="15px" height='15px' src="/images/trash.svg" alt="cross">`
+    <img class="delete" width="15px" height='15px' src="./images/trash.svg" alt="cross">`
     ;
     todoList.append(node);
 
