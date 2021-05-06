@@ -24,6 +24,10 @@ switcher.addEventListener('change', (e) => {
   }
 });
 
+clearAll.addEventListener('click', ()=>{
+
+});
+
 formT.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -193,7 +197,15 @@ const counter = () => {
 
   count.innerText = `${itemsCounter.length} ${counterString} left`;
 };
+/* clear all the items */
+
+function clearItemAll () {
+  if(tasks[0]) {
+    tasks = [];
+    localStorage.setItem('tasksRef', JSON.stringify(tasks));
+  }
+  
+}
 
 /* Create new project */
-
 function project() {}
