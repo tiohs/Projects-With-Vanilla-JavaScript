@@ -11,7 +11,12 @@ const completedTasks = document.getElementById('Completed')
 
 /* arry that holds tasks */
 let tasks = [];
+let projects = [];
+/* Create new project */
 
+function project (){
+
+}
 
 /*  EVENT LISITNERS */
 switcher.addEventListener('change', (e) => {
@@ -99,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
+
 
 
 
