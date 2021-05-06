@@ -350,10 +350,3 @@ img {
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-#model {
-    background: rgba(0, 0, 0, 0.151);
-    position: relative;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-}
