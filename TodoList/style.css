@@ -276,6 +276,9 @@ img {
 .controls p {
     font-size: 13px;
 }
+.container p#allClear {
+ cursor: pointer;   
+}
 .controls-list {
     display: flex;
     list-style: none;
@@ -330,7 +333,7 @@ img {
 
 }
 
-.controls li:hover {
+.controls li:hover p#allClear {
     color: var(--text-hover);
     cursor:default;
 }

@@ -204,7 +204,7 @@ function clearItemAll () {
     tasks = [];
     localStorage.setItem('tasksRef', JSON.stringify(tasks));
   }
-  
+  todoList.innerHTML = '';
 }
 
 /* Create new project */
