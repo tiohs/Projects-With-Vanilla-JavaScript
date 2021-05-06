@@ -8,15 +8,13 @@ const filterList = document.querySelector('.controls-list')
 const allTasks = document.getElementById('All')
 const activeTasks = document.getElementById('Active')
 const completedTasks = document.getElementById('Completed')
+const inputProject = document.getElementById('name');
+const salvar = document.getElementById('save');
 
 /* arry that holds tasks */
 let tasks = [];
 let projects = [];
-/* Create new project */
 
-function project (){
-
-}
 
 /*  EVENT LISITNERS */
 switcher.addEventListener('change', (e) => {
@@ -46,8 +44,7 @@ formT.addEventListener('submit', e => {
 todoList.addEventListener('click', e => {
     if (e.target.classList.contains('js-tick')) {
         const itemKey = e.target.parentElement.dataset.key;
-        toggleDone(itemKey);
-        
+        toggleDone(itemKey);    
     }
 
     if (e.target.classList.contains('delete')) {
@@ -177,7 +174,6 @@ const deleteTodo = (key) => {
     const todoTask = {
         ...tasks[index],
         deleted: true
-        
       };
       tasks = tasks.filter(item => item.id !== Number(key));
   renderTodo(todoTask);
@@ -208,5 +204,11 @@ const counter = () => {
     const counterString = itemsCounter.length === 1 ? 'item' : 'items'
 
  count.innerText = `${itemsCounter.length} ${counterString} left`
+
+}
+
+/* Create new project */
+
+function project (){
 
 }
