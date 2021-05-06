@@ -25,7 +25,7 @@ switcher.addEventListener('change', (e) => {
 });
 
 clearAll.addEventListener('click', ()=>{
-
+  clearItemAll();
 });
 
 formT.addEventListener('submit', (e) => {
