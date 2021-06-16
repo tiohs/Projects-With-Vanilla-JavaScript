@@ -10,12 +10,19 @@ const completedTasks = document.getElementById('Completed');
 const inputProject = document.getElementById('name');
 const salvar = document.getElementById('save');
 const clearAll = document.getElementById('allClear');
-
+const addList = document.querySelector('#addList');
+const model = document.querySelector('.modal');
 /* arry that holds tasks */
 let tasks = [];
 let projects = [];
 
 /*  EVENT LISITNERS */
+
+addList.addEventListener('click', () => {
+   model.setAttribute('display ', ' block');
+  
+});
+
 switcher.addEventListener('change', (e) => {
   if (e.target.checked) {
     body.classList.replace('light', 'dark');
@@ -38,6 +45,7 @@ formT.addEventListener('submit', (e) => {
     inputT.focus();
   }
 });
+
 
 todoList.addEventListener('click', (e) => {
   if (e.target.classList.contains('js-tick')) {
