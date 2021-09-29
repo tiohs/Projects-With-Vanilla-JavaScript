@@ -1,0 +1,38 @@
+@import url('htttps://fonts.googleapis.com/css?famly=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('img/unituenda.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+/*ADd adark overlay */
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body * {
+  z-index: 1;
+}
