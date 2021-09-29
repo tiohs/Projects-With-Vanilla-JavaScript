@@ -1,4 +1,4 @@
-@import url('htttps://fonts.googleapis.com/css?famly=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,8 +11,7 @@ body {
   background-position: center center;
   height: 100vh;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +21,7 @@ body {
   overflow: hidden;
 }
 
-/*ADd adark overlay */
+/* Add a dark overlay */
 body::after {
   content: '';
   position: absolute;
@@ -42,8 +41,19 @@ h1 {
   margin: -80px 0 40px;
 }
 
+.year {
+  font-size: 200px;
+  z-index: -1;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .countdown {
-  display: flex;
+  /* display: flex; */
+  display: none;
   transform: scale(2);
 }
 
@@ -63,16 +73,17 @@ h1 {
   h1 {
     font-size: 45px;
   }
+
   .time {
     margin: 5px;
   }
+
   .time h2 {
     font-size: 12px;
     margin: 0;
   }
+
   .time small {
     font-size: 10px;
   }
 }
-
-  
