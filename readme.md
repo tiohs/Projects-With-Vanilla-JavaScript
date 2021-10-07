@@ -33,4 +33,5 @@
 
 ## Redes Socias 
 - [Facebook](https://www.facebook.com/tiohs.u)
-- [Linkdin](https://www.linkedin.com/in/hamilton-silva-502355195/)
+- [Linkdin](https://www.linkedin.com/in/tiohs)
+- [Twitter](https://twitter.com/tiohs_uc)
