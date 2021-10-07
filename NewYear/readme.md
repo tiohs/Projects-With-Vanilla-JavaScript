@@ -24,10 +24,10 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src="image/Covid.png" width="100%">
+  <img alt="Frontend" src="img/newyear.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## Tecnologias 🚀 
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -35,39 +35,39 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Webt)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web)
 
-## 💻 Projeto
+## Projeto 💻 
 
 ### New Year Countdown
 
-- Uma Landing page de contagem regressiva da data e o ano corrente para o proximo.  
+- Uma Landing page de contagem regressiva com a data actual e o ano corrente para o proximo que vem.  
 
-## Especificações do Projeto 
+### Especificações do Projeto 
 
 - Criar uma landing page com HTML/CSS
 - Calcular dias, horas, minutos e segundos para o novo ano.
 - Inserir valores dentro da DOM
 - Mostrar um loading giratório antes da contagem 
 
-## 🔖 Layout
+## Layout  🔖
 
 Layout foi desenvolvido no decorrer do desenvolvimento do projecto !
 
-## 🤔 Como contribuir
+## Como contribuir 🤔
 
 - Faça um fork desse repositório;
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
-### OBS ; Precisa de ser trabalhado mais no Mobile 
+
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## :memo: Licença
+## Licença :memo:
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
-♥ by Hamilton Silva :wave: [Entre na nossa comunidade!](https://www.facebook.com/groups/2330277530393634)
+♥ by Hamilton Silva :wave: [Entre na nossa comunidade! - Click](https://www.facebook.com/groups/2330277530393634)
 
 ## Redes Socias 
 - [Facebook](https://www.facebook.com/tiohs.u)
