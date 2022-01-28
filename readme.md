@@ -30,7 +30,8 @@
 * Vanilla JS
 
 ## Projetos
-* <a href="#uniplace-tecnologias"></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+* <a href="https://tiohs.github.io/Projects-With-Vanilla-JavaScript/Custom%20Video%20Player%20%20HTML5%20Video%20API/">Custom Video Player</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+* <a href="https://tiohs.github.io/Projects-With-Vanilla-JavaScript/NewYear/"></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
 
 ♥ by Hamilton Silva :wave: [Entre na nossa comunidade!](https://www.facebook.com/groups/2330277530393634)
@@ -38,4 +39,4 @@
 ## Redes Socias 
 - [Facebook](https://www.facebook.com/tiohs.u)
 - [Linkdin](https://www.linkedin.com/in/tiohs)
-- [Twitter](https://www.instagram.com/tiohs.u/)
+- [Instagram](https://www.instagram.com/tiohs.u/)
