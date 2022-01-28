@@ -30,7 +30,7 @@
 * Vanilla JS
 
 ## Projetos
-
+* <a href="#uniplace-tecnologias"></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
 
 ♥ by Hamilton Silva :wave: [Entre na nossa comunidade!](https://www.facebook.com/groups/2330277530393634)
@@ -38,4 +38,4 @@
 ## Redes Socias 
 - [Facebook](https://www.facebook.com/tiohs.u)
 - [Linkdin](https://www.linkedin.com/in/tiohs)
-- [Twitter](https://twitter.com/tiohs_uc)
+- [Twitter](https://www.instagram.com/tiohs.u/)
